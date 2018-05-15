@@ -26,6 +26,7 @@ public class ParseXMLByDOM4j
 
 	public List<Url> getUrls(File file)
 	{
+		// 这里需要 dom4j-1.6.1.jar
 		SAXReader reader = new SAXReader();
 		try
 		{
